@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/bg1"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/totalspeed"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email : "
+        android:layout_marginBottom="10dp"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:hint="namaanda@gmail.com"
+        android:minHeight="48dp"
+        android:id="@+id/edt_email"
+        android:layout_marginBottom="30dp"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password : "
+        android:layout_marginBottom="10dp"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:hint="********"
+        android:minHeight="48dp"
+        android:id="@+id/edt_password"
+        android:layout_marginBottom="30dp"></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/cobaborder"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@color/white"
+        android:text="Login"
+        android:id="@+id/btn_login"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cobaborder"
+        android:backgroundTint="#dddddd"
+        android:textColor="@color/black"
+        android:text="Register"
+        android:id="@+id/btn_register"></Button>
+
+</LinearLayout>
